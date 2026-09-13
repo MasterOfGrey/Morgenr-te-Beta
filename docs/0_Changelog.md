@@ -3,6 +3,7 @@ Changelog for 2.8.3i "Mitsopoulos"
 Characters:
 - Paul Camille Denis (German Engineer)
 - Joseph Scherer (German Chemist and Physician)
+- Gustav Bischof (German Geologist and Chemist)
 - Franz von Kobell (German Geologist and Writer)
 - Ernst von Bibra (German Chemist and Naturalist)
 - Carl Friedrich Philipp von Martius (German Naturalist and Ethnologist)
@@ -15,7 +16,7 @@ Characters:
 - Luther Burbank (American Biologist)
 
 Fixes:
--
+- Beno Gutenberg should no longer use the same variable as Wegener to keep him from spawning.
 
 Graphics:
 - Johann Lukas Schönlein DNA improved.

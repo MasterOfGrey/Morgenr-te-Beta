@@ -890,7 +890,42 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		100 = { #Albert Boehringer, Germany
+		100 = { #Gustav Bischof, Germany
+			trigger = {
+				NOT = { has_global_variable = mr_bischof_gustav_created_global_var }
+				OR = {
+					has_state_in_state_region = STATE_FRANCONIA #Born in Wöhrd, Nürnberg
+					has_state_in_state_region = STATE_NORTH_RHINE #Worked in Bonn for a long time
+				}
+				country_average_cultural_acceptance = {
+					target = cu:south_german
+					value >= acceptance_status_4
+				}
+				year >= 1815 #Started working as a Privatdozent
+				year <= 1847 #Age 55
+			}
+			create_character = {
+				template = mr_ger_bischof_gustav_character_template
+				save_scope_as = mendelejew_new_chemist_scope
+			}
+
+			set_variable = {
+				name = mendelejew_new_chemist_var
+				value = scope:mendelejew_new_chemist_scope
+			}
+
+			modifier = {
+				add = {
+					value = year
+					subtract = 1792
+					subtract = 25
+					min = 0
+					multiply = 2
+					multiply = -1
+				}
+			}
+		}
+		200 = { #Albert Boehringer, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_boehringer_created_global_var }
 				has_state_in_state_region = STATE_WURTTEMBERG
@@ -953,7 +988,7 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		200 = { #Robert Bunsen, Germany
+		300 = { #Robert Bunsen, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_bunsen_created_global_var }
 				any_scope_state = {
@@ -986,7 +1021,7 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		100 = { #Emil Erlenmeyer, Germany
+		200 = { #Emil Erlenmeyer, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_erlenmeyer_created_global_var }
 				any_scope_state = {
@@ -1019,7 +1054,7 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		100 = { #Hermann Fehling, Germany
+		200 = { #Hermann Fehling, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_fehling_hermann_created_global_var }
 				has_state_in_state_region = STATE_SCHLESWIG_HOLSTEIN #Born in Lübeck
@@ -1050,7 +1085,7 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		100 = { #August Wilhelm Hofmann, Germany
+		200 = { #August Wilhelm Hofmann, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_hofmann_august_wilhelm_created_global_var }
 				has_state_in_state_region = STATE_HESSE
@@ -1081,7 +1116,7 @@ mr_create_historical_chemist_for_character_creation_effect = {
 				}
 			}
 		}
-		200 = { #August Kekulé, Germany
+		300 = { #August Kekulé, Germany
 			trigger = {
 				NOT = { has_global_variable = mr_kekule_august_created_global_var }
 				has_state_in_state_region = STATE_HESSE #Born in Darmstadt

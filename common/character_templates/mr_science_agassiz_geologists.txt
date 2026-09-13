@@ -48,6 +48,7 @@
 #Steenstrup, K. J. V.
 
 ### Germany ###
+#Bischof, Gustav
 #Gutenberg, Beno
 #Haast, Julius
 #Hochstetter, Ferdinand
@@ -947,6 +948,45 @@ mr_den_steenstrup_k_j_v_character_template = {
 }
 
 ### Germany ###
+#Bischof, Gustav
+mr_ger_bischof_gustav_character_template = {
+	dna = mr_ger_bischof_gustav
+	first_name = mr_gustav
+	last_name = mr_bischof
+	culture = cu:south_german
+	role = character_role_agassiz_geologist
+	role = character_role_mendelejew_chemist
+	interest_group = ig_intelligentsia
+	birth_date = 1792.01.18
+	historical = yes
+	home_region = STATE_FRANCONIA #Born in Wöhrd, Nürnberg
+	traits = {
+		agassiz_geologist
+		agassiz_prospector
+		mendelejew_chemist
+		mendelejew_chemist_analyst
+		meticulous
+		innovative
+	}
+	on_created = {
+		set_variable = mr_no_headgear_var
+		mr_make_character_geologist_effect = yes
+		mr_make_character_chemist_effect = yes
+		set_global_variable = mr_bischof_gustav_created_global_var
+		if = {
+			limit = {
+				year >= 1819
+			}
+			add_modifier = {
+				name = academics_character_is_doctor_modifier
+			}
+			add_modifier = {
+				name = academics_character_is_professor_modifier
+			}
+		}
+	}
+}
+
 #Gutenberg, Beno
 mr_ger_gutenberg_beno_character_template = {
 	dna = mr_ger_gutenberg_beno
@@ -968,7 +1008,7 @@ mr_ger_gutenberg_beno_character_template = {
 	on_created = {
 		set_variable = mr_no_headgear_var
 		mr_make_character_geologist_effect = yes
-		set_global_variable = mr_wegener_created_global_var
+		set_global_variable = mr_gutenberg_beno_created_global_var
 	}
 }
 
