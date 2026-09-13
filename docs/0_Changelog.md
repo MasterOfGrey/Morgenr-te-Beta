@@ -1,24 +1,33 @@
-Changelog for 2.8.3h "Mitsopoulos"
+Changelog for 2.8.3i "Mitsopoulos"
 
 Characters:
-- Harry Marshall Ward (British Biologist)
-- Albert Calmette (French Biologist)
-- Félix d'Hérelle (French Biologist)
-- Casimir Davaine (Frennch Biologist)
-- Charles Nicolle (French Biologist)
-- Émile Roux (French Biologist and Physician)
-- Ferdinand Cohn (German Biologist)
-- Anton de Bary (German Biologist)
-- Julius Richard Petri (German Biologist)
-- Sergei Winogradsky (Ukrainian Biologist)
+- Paul Camille Denis (German Engineer)
+- Joseph Scherer (German Chemist and Physician)
+- Gustav Bischof (German Geologist and Chemist)
+- Franz von Kobell (German Geologist and Writer)
+- Ernst von Bibra (German Chemist and Naturalist)
+- Carl Friedrich Philipp von Martius (German Naturalist and Ethnologist)
+- Andreas Wagner (German Paleontologist)
+- Gregor Mendel (Austrian Biologist and Physicist)
+- Pierre-Marie Alexis Millardet (French Biologist)
+- Hugo de Vries (Dutch Biologist)
+- Carl Correns (German Biologist)
+- Carl Fraas (German Biologist)
+- Liberty Hyde Bailey (American Biologist)
+- Luther Burbank (American Biologist)
+- Joseph Anselm Feuerbach (German Archaeologist)
 
 Fixes:
-- Josef Rank should no longer spawn until age 155.
-- Alojzy Alth should no longer spawn until he is 155 years old.
-- Changed Rassam Hormuzd to be Assyrian.
+- Beno Gutenberg should no longer use the same variable as Wegener to keep him from spawning.
+- Fixed the name of Symphonies producing an error.
 
 Graphics:
--
+- Johann Lukas Schönlein DNA improved.
+- Gustave Eiffel DNA improved.
+- Richthofen DNA improved.
+- Fogg DNA improved.
+- Wolf DNA improved.
+- Vouris DNA improved.
 
 Changes:
-- Kitasato Shibasaburō can now also spawn as a Biologist.
+-
