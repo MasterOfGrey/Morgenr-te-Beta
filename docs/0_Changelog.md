@@ -15,6 +15,7 @@ Characters:
 - Carl Fraas (German Biologist)
 - Liberty Hyde Bailey (American Biologist)
 - Luther Burbank (American Biologist)
+- Joseph Anselm Feuerbach (German Archaeologist)
 
 Fixes:
 - Beno Gutenberg should no longer use the same variable as Wegener to keep him from spawning.
