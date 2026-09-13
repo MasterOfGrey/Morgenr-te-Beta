@@ -26,6 +26,7 @@ Graphics:
 - Gustave Eiffel DNA improved.
 - Richthofen DNA improved.
 - Fogg DNA improved.
+- Wolf DNA improved.
 
 Changes:
 -
