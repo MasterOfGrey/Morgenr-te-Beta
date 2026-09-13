@@ -23,7 +23,8 @@ Fixes:
 
 Graphics:
 - Johann Lukas Schönlein DNA improved.
-- Gustave Eiffel DNA improved
+- Gustave Eiffel DNA improved.
+- Richthofen DNA improved.
 
 Changes:
 -
