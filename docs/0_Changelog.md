@@ -27,6 +27,7 @@ Graphics:
 - Richthofen DNA improved.
 - Fogg DNA improved.
 - Wolf DNA improved.
+- Vouris DNA improved.
 
 Changes:
 -
