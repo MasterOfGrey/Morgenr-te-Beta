@@ -25,6 +25,7 @@ Graphics:
 - Johann Lukas Schönlein DNA improved.
 - Gustave Eiffel DNA improved.
 - Richthofen DNA improved.
+- Fogg DNA improved.
 
 Changes:
 -
