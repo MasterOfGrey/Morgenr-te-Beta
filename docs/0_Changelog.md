@@ -10,4 +10,4 @@ Graphics:
 -
 
 Changes:
--
+- Slightly raised the SoL modifiers of the Nature Reserve Production Methods.
