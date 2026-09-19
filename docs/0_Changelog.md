@@ -11,14 +11,3 @@ Graphics:
 
 Changes:
 - Slightly raised the SoL modifiers of the Nature Reserve Production Methods.
-
-Changelog for 2.8.3f "Mitsopoulos"
-
-Characters:
--
-
-Fixes:
--
-
-Changes:
-- 
